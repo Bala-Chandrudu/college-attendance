@@ -19,7 +19,7 @@ export function WelcomePage({ user, onSignOut }: WelcomePageProps) {
   
     const form = event.target as HTMLFormElement; // ✅ Cast to HTMLFormElement
     const formData = new FormData(form);
-    formData.append("access_key", process.env.REACT_APP_WEB3FORMS_KEY || "");
+    formData.append("access_key", process.env.REACT_APP_WEB3FORMS_KEY || "b5e57524-6364-48ed-bc09-118b1c940482");
   
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
