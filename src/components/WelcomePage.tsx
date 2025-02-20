@@ -106,7 +106,7 @@ export function WelcomePage({ user, onSignOut }: WelcomePageProps) {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700">Message for-leave college (Reason)</label>
+              <label className="block text-sm font-medium text-gray-700">Apply for leave (Reason)</label>
               <textarea
                 name="message"
                 rows={4}
