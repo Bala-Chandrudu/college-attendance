@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background:linear-gradient(rgba(20,0,18,0.7),rgba(128,0,0,0.7)) ,url('../assets/lbrce.jpg');
+  background-size: cover;
+  background-position: center;
+}
